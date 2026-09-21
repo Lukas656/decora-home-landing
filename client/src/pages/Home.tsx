@@ -52,18 +52,27 @@ const inspirations = [
   {
     category: "Quarto",
     eyebrow: "Achadinho da semana",
-    title: "Detalhes que fazem o quarto respirar",
+    title: "Guarda-roupa Casal Easy Slim 8 Portas C/ Espelho Amendoa/off",
     copy: "Peças leves para montar um cantinho mais calmo — sem reforma e sem gastar muito.",
     image: "/D_NQ_NP_2X_947530-MLA118007334527_092026-F.webp",
     tag: "curadoria",
     link: "https://meli.la/2fi3rmG",
   },
   {
+    category: "Quarto",
+    eyebrow: "Achadinho da semana",
+    title: " Espelho Organico Com Led Grande",
+    copy: "Peças leves para montar um cantinho mais calmo — sem reforma e sem gastar muito.",
+    image: "/ChatGPT Image 21_09_2026, 02_31_06.png",
+    tag: "curadoria",
+    link: "https://s.shopee.com.br/9AOoSUADY1",
+  },
+  {
     category: "Sala",
     eyebrow: "Mood Decora",
-    title: "Terracota, madeira e luz baixa",
+    title: "Espelho Organico Com Led",
     copy: "Uma paleta que deixa qualquer apê mais convidativo e com cara de casa vivida.",
-    image: "/inspiration-room_ad352464.webp",
+    image: "/ChatGPT Image 21_09_2026, 02_38_10.png",
     tag: "inspiração",
     link: "https://seu-terceiro-link-de-afiliado.com",
   },
@@ -491,18 +500,18 @@ export default function Home() {
                 de inspiração que faz vontade de arrumar a casa toda.
               </p>
               <div className="mt-9 flex flex-wrap gap-3">
-                <button
-                  onClick={() => handlePlaceholder("Grupo do WhatsApp")}
+                <a
+                  href="https://chat.whatsapp.com/GnfHm24ezzXIxpE2OMts3x"
                   className="button button-orange"
                 >
                   Entrar no WhatsApp <MessageCircle size={16} />
-                </button>
-                <button
-                  onClick={() => handlePlaceholder("Canal do Telegram")}
+                </a>
+                <a
+                  href="https://www.instagram.com/only.meucantinho/"
                   className="button button-outline-light"
                 >
                   Seguir no Instagram <Instagram size={16} />
-                </button>
+                </a>
               </div>
             </div>
             <div className="relative rounded-[28px] border border-white/10 bg-[#fffaf5]/[0.07] p-6 backdrop-blur-sm">
@@ -573,24 +582,18 @@ export default function Home() {
           <div className="flex flex-col gap-3 text-xs md:items-end">
             <p>Achadinhos e inspirações para o lar real.</p>
             <div className="flex items-center gap-5 font-semibold">
-              <button
-                onClick={() => handlePlaceholder("Pinterest")}
+              <a
+                href="https://www.pinterest.com/decoration_my_home/"
                 className="transition-colors hover:text-[#f47c3d]"
               >
                 Pinterest
-              </button>
-              <button
-                onClick={() => handlePlaceholder("Instagram")}
+              </a>
+              <a
+                href="https://www.instagram.com/only.meucantinho/"
                 className="transition-colors hover:text-[#f47c3d]"
               >
                 Instagram
-              </button>
-              <button
-                onClick={() => handlePlaceholder("Telegram")}
-                className="transition-colors hover:text-[#f47c3d]"
-              >
-                Telegram
-              </button>
+              </a>
             </div>
           </div>
         </div>
